@@ -1,0 +1,13 @@
+{
+  "name": "specialbit-studio",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app",
+    "studio"
+  ],
+  "scripts": {
+    "build": "bun --filter '*' build",
+    "dev": "bun --filter '*' dev"
+  }
+}
